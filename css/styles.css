@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.cell{
+    border: 1px solid black;
+    grid-row: row;
+    grid-column: column;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 120px;
+    height: 16px;
+}
